@@ -1,0 +1,72 @@
+.slider-background{
+    background-color: #feeae9;
+}
+.button{
+    background-image: linear-gradient(to bottom, #FF589B 0%, #ff4b92 100%);
+    color: white;
+    padding: 10px 30px;
+    border-radius: 10px;
+    border-color: white;
+    font-weight: 400;
+    font-style: bold;
+    text-decoration: none;
+}
+.text{
+    color:#ff3e8a;
+    
+}
+.txt{
+    color: white;
+    font-size: 2.5rem;
+    font-weight: 500;
+    line-height: 1.5;
+}
+
+/* HOVER SECTION  */
+.navbar:hover img{
+    transition: transform 1.2s;
+    transform: rotate(360deg);
+}
+
+.nav-item:hover .nav-link{
+    transition: transform 0.8s;
+    transform: scale(1.1);
+    background-color: darkgray;
+}
+
+.slide-con:hover .button {
+    transition: transform 1.2s;
+    transform: scale(1.2);
+}
+
+.secound-con:hover img{
+    transition: transform 0.8s;
+    transform: scale(1.2);
+}
+
+.third-con:hover img{
+    transition: transform 0.8s;
+    transform: scale(1.1);
+}
+
+.third-con:hover .bttn {
+    transition: transform 1.2s;
+    transform: rotate(360deg);   
+}
+.forth-con:hover img{
+    transition: transform 0.8s;
+    transform: scale(1.1);
+}
+.forth-con:hover .bttn{
+    transition: transform 1.2s;
+    transform: rotate(360deg); 
+}
+.fifth-con:hover p{
+    transition: transform 0.9s;
+    transform: scale(1.2);
+  
+}
+.fifth-con{
+    background: #fceae8;
+    color: black;
+}
